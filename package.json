@@ -1,0 +1,25 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "",
+  "author": "hakan",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "nodemon index.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~5.0.8",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "license": "ISC",
+  "type": "module"
+}
